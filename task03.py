@@ -1,5 +1,8 @@
 import re
 
+# Write a Python program to search for literal strings within a string. Sample text : 'The quick brown fox jumps over the lazy dog.' Searched words : 'fox', 'dog', 'horse'
+
+
 set_patterns = ['fox', 'dog', 'horse']
 text = 'The quick brown fox jumps over the lazy dog.'
 
