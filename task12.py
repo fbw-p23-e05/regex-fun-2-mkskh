@@ -2,4 +2,8 @@ import re
 
 # Write a Python program to find all words starting with 'a' or 'e' in a given string.
 
-print(re.findall('[aeAE]\w+', '234, Words and words: 643, andOOOO End 435'))
+list = re.findall('[aeAE]\w+', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+
+quantity_words = len(list)
+
+print(f'Here is the list of words: \n {list} \nQuantity of words is {quantity_words}')
